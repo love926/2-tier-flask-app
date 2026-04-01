@@ -3,7 +3,7 @@ name: CI/CD Pipeline - Deploy to AWS
 on:
   push:
     branches:
-      - main  # Jab bhi aap push karenge, automation shuru ho jayegi
+      - master # Jab bhi aap push karenge, automation shuru ho jayegi
 
 jobs:
   build-and-deploy:
