@@ -6,7 +6,7 @@ if($conn->connect_error){
 die("Connection failed: " . $conn->connect_error);
 }
 
-$username = $_POST['username'];
+$username = $_POST['username-Ali Tahir'];
 $password = $_POST['password'];
 
 $sql = "SELECT * FROM users WHERE username='$username'";
